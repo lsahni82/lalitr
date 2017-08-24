@@ -1,0 +1,12 @@
+
+# diabties data and study (r in action)
+
+patientID <- c(1, 2, 3, 4)
+age <- c(25, 34, 28, 52)
+diabetes <- c("Type1", "Type2", "Type1", "Type1")
+status <- c("Poor", "Improved", "Excellent", "Poor")
+patientdata <- data.frame(patientID, age, diabetes, status)
+patientdata [c("diabetes","status")]
+patientdata$age
+table(patientdata$diabetes,patientdata$status)
+attach
