@@ -18,3 +18,13 @@ sort(mtcars)
 sort(mtcars[1,])
 df$gear2=df$gear;
 sort(mtcars$mpg,decreasing=T)
+mtcars['am']
+mtcars["am"]
+mt$am
+mtcars$am
+mtcars[,"am"]
+head(mtcars)
+mtcars[24,]
+
+head(USArrests)
+  
